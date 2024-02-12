@@ -16,7 +16,7 @@ class Item: RoomComponent {
     }
 }
 
-// Класс для предметов в комнате
+// Класс для людей в комнате
 class Screamer: RoomComponent {
     var name: String
     
