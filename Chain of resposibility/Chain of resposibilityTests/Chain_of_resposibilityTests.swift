@@ -1,35 +1,46 @@
-//
-//  Chain_of_resposibilityTests.swift
-//  Chain of resposibilityTests
-//
-//  Created by Kirill Turov on 25.02.2024.
-//
-
 import XCTest
+@testable import Chain_of_resposibility // Замініть "YourAppName" на назву вашого проекту
 
-final class Chain_of_resposibilityTests: XCTestCase {
-
-    override func setUpWithError() throws {
-        // Put setup code here. This method is called before the invocation of each test method in the class.
+class Chain_of_resposibilityTests: XCTestCase {
+    
+    func testOrderProcessingWithInsufficientBalance() {
+        let userBalance = UserBalance(amount: 100)
+        let orderProcessor = OrderProcessor(userBalance: userBalance)
+        let order = Order(id: 1, amount: 200)
+        
+        orderProcessor.processOrder(order: order)
+        
+        XCTAssertEqual(userBalance.amount, 100)
     }
-
-    override func tearDownWithError() throws {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
+    
+    func testOrderProcessingWithZeroBalance() {
+        let userBalance = UserBalance(amount: 0)
+        let orderProcessor = OrderProcessor(userBalance: userBalance)
+        let order = Order(id: 1, amount: 100)
+        
+        orderProcessor.processOrder(order: order)
+        
+        XCTAssertEqual(userBalance.amount, 0)
     }
-
-    func testExample() throws {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
-        // Any test you write for XCTest can be annotated as throws and async.
-        // Mark your test throws to produce an unexpected failure when your test encounters an uncaught error.
-        // Mark your test async to allow awaiting for asynchronous code to complete. Check the results with assertions afterwards.
+    
+    func testOrderProcessingWithNegativeBalance() {
+        let userBalance = UserBalance(amount: -100)
+        let orderProcessor = OrderProcessor(userBalance: userBalance)
+        let order = Order(id: 1, amount: 50)
+        
+        orderProcessor.processOrder(order: order)
+        
+        XCTAssertEqual(userBalance.amount, -100)
     }
-
-    func testPerformanceExample() throws {
-        // This is an example of a performance test case.
-        measure {
-            // Put the code you want to measure the time of here.
-        }
+    
+    func testOrderProcessingWithZeroOrderAmount() {
+        let userBalance = UserBalance(amount: 1000)
+        let orderProcessor = OrderProcessor(userBalance: userBalance)
+        let order = Order(id: 1, amount: 0)
+        
+        orderProcessor.processOrder(order: order)
+        
+        XCTAssertEqual(userBalance.amount, 1000)
     }
 
 }

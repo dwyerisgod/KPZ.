@@ -9,7 +9,7 @@ struct Product {
 
 // Структура балансу користувача
 struct UserBalance {
-    var amount: Double = 200.0 // Початковий баланс
+    var amount: Double = 1000.00 // Початковий баланс
 }
 
 // Функція для створення трьох товарів
