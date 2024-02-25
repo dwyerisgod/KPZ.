@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0D4F90CE2B8BA4D6008A4ECE /* Chain_of_resposibilityApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D4F90CD2B8BA4D6008A4ECE /* Chain_of_resposibilityApp.swift */; };
 		0D4F90D02B8BA4D6008A4ECE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D4F90CF2B8BA4D6008A4ECE /* ContentView.swift */; };
 		0D4F90D22B8BA4D8008A4ECE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D4F90D12B8BA4D8008A4ECE /* Assets.xcassets */; };
 		0D4F90D52B8BA4D8008A4ECE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D4F90D42B8BA4D8008A4ECE /* Preview Assets.xcassets */; };
@@ -15,7 +14,6 @@
 
 /* Begin PBXFileReference section */
 		0D4F90CA2B8BA4D6008A4ECE /* Chain of resposibility.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Chain of resposibility.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		0D4F90CD2B8BA4D6008A4ECE /* Chain_of_resposibilityApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chain_of_resposibilityApp.swift; sourceTree = "<group>"; };
 		0D4F90CF2B8BA4D6008A4ECE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		0D4F90D12B8BA4D8008A4ECE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0D4F90D42B8BA4D8008A4ECE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -52,7 +50,6 @@
 		0D4F90CC2B8BA4D6008A4ECE /* Chain of resposibility */ = {
 			isa = PBXGroup;
 			children = (
-				0D4F90CD2B8BA4D6008A4ECE /* Chain_of_resposibilityApp.swift */,
 				0D4F90CF2B8BA4D6008A4ECE /* ContentView.swift */,
 				0D4F90D12B8BA4D8008A4ECE /* Assets.xcassets */,
 				0D4F90D62B8BA4D8008A4ECE /* Chain_of_resposibility.entitlements */,
@@ -140,7 +137,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				0D4F90D02B8BA4D6008A4ECE /* ContentView.swift in Sources */,
-				0D4F90CE2B8BA4D6008A4ECE /* Chain_of_resposibilityApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
