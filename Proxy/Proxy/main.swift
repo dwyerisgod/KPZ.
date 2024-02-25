@@ -1,3 +1,4 @@
+//Proxy контролирует доступ к объекту SecretWord через методы guessWord, getMaskedWord, getAvailableWordSets и chooseWordSet, обеспечивая дополнительный уровень абстракции и контроля.
 import Foundation
 
 // RealSubject
