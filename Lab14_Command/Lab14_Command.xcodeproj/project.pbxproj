@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FCCD65BB2BCDEA9F00535FB4 /* Lab14_CommandApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCCD65BA2BCDEA9F00535FB4 /* Lab14_CommandApp.swift */; };
 		FCCD65BD2BCDEA9F00535FB4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCCD65BC2BCDEA9F00535FB4 /* ContentView.swift */; };
 		FCCD65BF2BCDEAA000535FB4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCCD65BE2BCDEAA000535FB4 /* Assets.xcassets */; };
 		FCCD65C22BCDEAA000535FB4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCCD65C12BCDEAA000535FB4 /* Preview Assets.xcassets */; };
@@ -35,7 +34,6 @@
 
 /* Begin PBXFileReference section */
 		FCCD65B72BCDEA9F00535FB4 /* Lab14_Command.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lab14_Command.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		FCCD65BA2BCDEA9F00535FB4 /* Lab14_CommandApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lab14_CommandApp.swift; sourceTree = "<group>"; };
 		FCCD65BC2BCDEA9F00535FB4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		FCCD65BE2BCDEAA000535FB4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FCCD65C12BCDEAA000535FB4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -95,7 +93,6 @@
 		FCCD65B92BCDEA9F00535FB4 /* Lab14_Command */ = {
 			isa = PBXGroup;
 			children = (
-				FCCD65BA2BCDEA9F00535FB4 /* Lab14_CommandApp.swift */,
 				FCCD65BC2BCDEA9F00535FB4 /* ContentView.swift */,
 				FCCD65BE2BCDEAA000535FB4 /* Assets.xcassets */,
 				FCCD65C32BCDEAA000535FB4 /* Lab14_Command.entitlements */,
@@ -260,7 +257,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				FCCD65BD2BCDEA9F00535FB4 /* ContentView.swift in Sources */,
-				FCCD65BB2BCDEA9F00535FB4 /* Lab14_CommandApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
