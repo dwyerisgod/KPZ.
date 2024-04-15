@@ -1,14 +1,14 @@
 //
-//  Lab17_MementoTests.swift
-//  Lab17_MementoTests
+//  Lab18_MementoTests.swift
+//  Lab18_MementoTests
 //
 //  Created by Kiril Turov on 2024-04-16.
 //
 
 import XCTest
-@testable import Lab17_Memento
+@testable import Lab18_Memento
 
-final class Lab17_MementoTests: XCTestCase {
+final class Lab18_MementoTests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.

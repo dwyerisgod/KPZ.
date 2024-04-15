@@ -1,13 +1,13 @@
 //
-//  Lab17_MementoUITestsLaunchTests.swift
-//  Lab17_MementoUITests
+//  Lab18_MementoUITestsLaunchTests.swift
+//  Lab18_MementoUITests
 //
 //  Created by Kiril Turov on 2024-04-16.
 //
 
 import XCTest
 
-final class Lab17_MementoUITestsLaunchTests: XCTestCase {
+final class Lab18_MementoUITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true
