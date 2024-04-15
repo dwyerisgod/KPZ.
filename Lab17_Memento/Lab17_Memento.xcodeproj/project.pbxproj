@@ -1,0 +1,574 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FCCD66622BCDF5C600535FB4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCCD66612BCDF5C600535FB4 /* ContentView.swift */; };
+		FCCD66642BCDF5C800535FB4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCCD66632BCDF5C800535FB4 /* Assets.xcassets */; };
+		FCCD66672BCDF5C800535FB4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCCD66662BCDF5C800535FB4 /* Preview Assets.xcassets */; };
+		FCCD66722BCDF5C800535FB4 /* Lab17_MementoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCCD66712BCDF5C800535FB4 /* Lab17_MementoTests.swift */; };
+		FCCD667C2BCDF5C800535FB4 /* Lab17_MementoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCCD667B2BCDF5C800535FB4 /* Lab17_MementoUITests.swift */; };
+		FCCD667E2BCDF5C800535FB4 /* Lab17_MementoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCCD667D2BCDF5C800535FB4 /* Lab17_MementoUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FCCD666E2BCDF5C800535FB4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FCCD66542BCDF5C600535FB4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FCCD665B2BCDF5C600535FB4;
+			remoteInfo = Lab17_Memento;
+		};
+		FCCD66782BCDF5C800535FB4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FCCD66542BCDF5C600535FB4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FCCD665B2BCDF5C600535FB4;
+			remoteInfo = Lab17_Memento;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FCCD665C2BCDF5C600535FB4 /* Lab17_Memento.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lab17_Memento.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCCD66612BCDF5C600535FB4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FCCD66632BCDF5C800535FB4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FCCD66662BCDF5C800535FB4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FCCD66682BCDF5C800535FB4 /* Lab17_Memento.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Lab17_Memento.entitlements; sourceTree = "<group>"; };
+		FCCD666D2BCDF5C800535FB4 /* Lab17_MementoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Lab17_MementoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCCD66712BCDF5C800535FB4 /* Lab17_MementoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lab17_MementoTests.swift; sourceTree = "<group>"; };
+		FCCD66772BCDF5C800535FB4 /* Lab17_MementoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Lab17_MementoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCCD667B2BCDF5C800535FB4 /* Lab17_MementoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lab17_MementoUITests.swift; sourceTree = "<group>"; };
+		FCCD667D2BCDF5C800535FB4 /* Lab17_MementoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lab17_MementoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FCCD66592BCDF5C600535FB4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCCD666A2BCDF5C800535FB4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCCD66742BCDF5C800535FB4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FCCD66532BCDF5C600535FB4 = {
+			isa = PBXGroup;
+			children = (
+				FCCD665E2BCDF5C600535FB4 /* Lab17_Memento */,
+				FCCD66702BCDF5C800535FB4 /* Lab17_MementoTests */,
+				FCCD667A2BCDF5C800535FB4 /* Lab17_MementoUITests */,
+				FCCD665D2BCDF5C600535FB4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FCCD665D2BCDF5C600535FB4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FCCD665C2BCDF5C600535FB4 /* Lab17_Memento.app */,
+				FCCD666D2BCDF5C800535FB4 /* Lab17_MementoTests.xctest */,
+				FCCD66772BCDF5C800535FB4 /* Lab17_MementoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FCCD665E2BCDF5C600535FB4 /* Lab17_Memento */ = {
+			isa = PBXGroup;
+			children = (
+				FCCD66612BCDF5C600535FB4 /* ContentView.swift */,
+				FCCD66632BCDF5C800535FB4 /* Assets.xcassets */,
+				FCCD66682BCDF5C800535FB4 /* Lab17_Memento.entitlements */,
+				FCCD66652BCDF5C800535FB4 /* Preview Content */,
+			);
+			path = Lab17_Memento;
+			sourceTree = "<group>";
+		};
+		FCCD66652BCDF5C800535FB4 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FCCD66662BCDF5C800535FB4 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FCCD66702BCDF5C800535FB4 /* Lab17_MementoTests */ = {
+			isa = PBXGroup;
+			children = (
+				FCCD66712BCDF5C800535FB4 /* Lab17_MementoTests.swift */,
+			);
+			path = Lab17_MementoTests;
+			sourceTree = "<group>";
+		};
+		FCCD667A2BCDF5C800535FB4 /* Lab17_MementoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FCCD667B2BCDF5C800535FB4 /* Lab17_MementoUITests.swift */,
+				FCCD667D2BCDF5C800535FB4 /* Lab17_MementoUITestsLaunchTests.swift */,
+			);
+			path = Lab17_MementoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FCCD665B2BCDF5C600535FB4 /* Lab17_Memento */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCCD66812BCDF5C800535FB4 /* Build configuration list for PBXNativeTarget "Lab17_Memento" */;
+			buildPhases = (
+				FCCD66582BCDF5C600535FB4 /* Sources */,
+				FCCD66592BCDF5C600535FB4 /* Frameworks */,
+				FCCD665A2BCDF5C600535FB4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Lab17_Memento;
+			productName = Lab17_Memento;
+			productReference = FCCD665C2BCDF5C600535FB4 /* Lab17_Memento.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FCCD666C2BCDF5C800535FB4 /* Lab17_MementoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCCD66842BCDF5C800535FB4 /* Build configuration list for PBXNativeTarget "Lab17_MementoTests" */;
+			buildPhases = (
+				FCCD66692BCDF5C800535FB4 /* Sources */,
+				FCCD666A2BCDF5C800535FB4 /* Frameworks */,
+				FCCD666B2BCDF5C800535FB4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FCCD666F2BCDF5C800535FB4 /* PBXTargetDependency */,
+			);
+			name = Lab17_MementoTests;
+			productName = Lab17_MementoTests;
+			productReference = FCCD666D2BCDF5C800535FB4 /* Lab17_MementoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FCCD66762BCDF5C800535FB4 /* Lab17_MementoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCCD66872BCDF5C800535FB4 /* Build configuration list for PBXNativeTarget "Lab17_MementoUITests" */;
+			buildPhases = (
+				FCCD66732BCDF5C800535FB4 /* Sources */,
+				FCCD66742BCDF5C800535FB4 /* Frameworks */,
+				FCCD66752BCDF5C800535FB4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FCCD66792BCDF5C800535FB4 /* PBXTargetDependency */,
+			);
+			name = Lab17_MementoUITests;
+			productName = Lab17_MementoUITests;
+			productReference = FCCD66772BCDF5C800535FB4 /* Lab17_MementoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FCCD66542BCDF5C600535FB4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					FCCD665B2BCDF5C600535FB4 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					FCCD666C2BCDF5C800535FB4 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = FCCD665B2BCDF5C600535FB4;
+					};
+					FCCD66762BCDF5C800535FB4 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = FCCD665B2BCDF5C600535FB4;
+					};
+				};
+			};
+			buildConfigurationList = FCCD66572BCDF5C600535FB4 /* Build configuration list for PBXProject "Lab17_Memento" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FCCD66532BCDF5C600535FB4;
+			productRefGroup = FCCD665D2BCDF5C600535FB4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FCCD665B2BCDF5C600535FB4 /* Lab17_Memento */,
+				FCCD666C2BCDF5C800535FB4 /* Lab17_MementoTests */,
+				FCCD66762BCDF5C800535FB4 /* Lab17_MementoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FCCD665A2BCDF5C600535FB4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCCD66672BCDF5C800535FB4 /* Preview Assets.xcassets in Resources */,
+				FCCD66642BCDF5C800535FB4 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCCD666B2BCDF5C800535FB4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCCD66752BCDF5C800535FB4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FCCD66582BCDF5C600535FB4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCCD66622BCDF5C600535FB4 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCCD66692BCDF5C800535FB4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCCD66722BCDF5C800535FB4 /* Lab17_MementoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCCD66732BCDF5C800535FB4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCCD667E2BCDF5C800535FB4 /* Lab17_MementoUITestsLaunchTests.swift in Sources */,
+				FCCD667C2BCDF5C800535FB4 /* Lab17_MementoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FCCD666F2BCDF5C800535FB4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FCCD665B2BCDF5C600535FB4 /* Lab17_Memento */;
+			targetProxy = FCCD666E2BCDF5C800535FB4 /* PBXContainerItemProxy */;
+		};
+		FCCD66792BCDF5C800535FB4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FCCD665B2BCDF5C600535FB4 /* Lab17_Memento */;
+			targetProxy = FCCD66782BCDF5C800535FB4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		FCCD667F2BCDF5C800535FB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FCCD66802BCDF5C800535FB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		FCCD66822BCDF5C800535FB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Lab17_Memento/Lab17_Memento.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Lab17_Memento/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dwyerisgod.Lab17-Memento";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		FCCD66832BCDF5C800535FB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Lab17_Memento/Lab17_Memento.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Lab17_Memento/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dwyerisgod.Lab17-Memento";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		FCCD66852BCDF5C800535FB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dwyerisgod.Lab17-MementoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lab17_Memento.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Lab17_Memento";
+			};
+			name = Debug;
+		};
+		FCCD66862BCDF5C800535FB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dwyerisgod.Lab17-MementoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lab17_Memento.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Lab17_Memento";
+			};
+			name = Release;
+		};
+		FCCD66882BCDF5C800535FB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dwyerisgod.Lab17-MementoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = Lab17_Memento;
+			};
+			name = Debug;
+		};
+		FCCD66892BCDF5C800535FB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dwyerisgod.Lab17-MementoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = Lab17_Memento;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FCCD66572BCDF5C600535FB4 /* Build configuration list for PBXProject "Lab17_Memento" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCCD667F2BCDF5C800535FB4 /* Debug */,
+				FCCD66802BCDF5C800535FB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCCD66812BCDF5C800535FB4 /* Build configuration list for PBXNativeTarget "Lab17_Memento" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCCD66822BCDF5C800535FB4 /* Debug */,
+				FCCD66832BCDF5C800535FB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCCD66842BCDF5C800535FB4 /* Build configuration list for PBXNativeTarget "Lab17_MementoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCCD66852BCDF5C800535FB4 /* Debug */,
+				FCCD66862BCDF5C800535FB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCCD66872BCDF5C800535FB4 /* Build configuration list for PBXNativeTarget "Lab17_MementoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCCD66882BCDF5C800535FB4 /* Debug */,
+				FCCD66892BCDF5C800535FB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FCCD66542BCDF5C600535FB4 /* Project object */;
+}
