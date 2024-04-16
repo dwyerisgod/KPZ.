@@ -1,0 +1,574 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FCCD66D02BCDF77100535FB4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCCD66CF2BCDF77100535FB4 /* ContentView.swift */; };
+		FCCD66D22BCDF77200535FB4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCCD66D12BCDF77200535FB4 /* Assets.xcassets */; };
+		FCCD66D52BCDF77200535FB4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCCD66D42BCDF77200535FB4 /* Preview Assets.xcassets */; };
+		FCCD66E02BCDF77200535FB4 /* Lab19_TemplateMethodTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCCD66DF2BCDF77200535FB4 /* Lab19_TemplateMethodTests.swift */; };
+		FCCD66EA2BCDF77200535FB4 /* Lab19_TemplateMethodUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCCD66E92BCDF77200535FB4 /* Lab19_TemplateMethodUITests.swift */; };
+		FCCD66EC2BCDF77200535FB4 /* Lab19_TemplateMethodUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCCD66EB2BCDF77200535FB4 /* Lab19_TemplateMethodUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FCCD66DC2BCDF77200535FB4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FCCD66C22BCDF77100535FB4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FCCD66C92BCDF77100535FB4;
+			remoteInfo = Lab19_TemplateMethod;
+		};
+		FCCD66E62BCDF77200535FB4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FCCD66C22BCDF77100535FB4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FCCD66C92BCDF77100535FB4;
+			remoteInfo = Lab19_TemplateMethod;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FCCD66CA2BCDF77100535FB4 /* Lab19_TemplateMethod.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lab19_TemplateMethod.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCCD66CF2BCDF77100535FB4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FCCD66D12BCDF77200535FB4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FCCD66D42BCDF77200535FB4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FCCD66D62BCDF77200535FB4 /* Lab19_TemplateMethod.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Lab19_TemplateMethod.entitlements; sourceTree = "<group>"; };
+		FCCD66DB2BCDF77200535FB4 /* Lab19_TemplateMethodTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Lab19_TemplateMethodTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCCD66DF2BCDF77200535FB4 /* Lab19_TemplateMethodTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lab19_TemplateMethodTests.swift; sourceTree = "<group>"; };
+		FCCD66E52BCDF77200535FB4 /* Lab19_TemplateMethodUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Lab19_TemplateMethodUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCCD66E92BCDF77200535FB4 /* Lab19_TemplateMethodUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lab19_TemplateMethodUITests.swift; sourceTree = "<group>"; };
+		FCCD66EB2BCDF77200535FB4 /* Lab19_TemplateMethodUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lab19_TemplateMethodUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FCCD66C72BCDF77100535FB4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCCD66D82BCDF77200535FB4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCCD66E22BCDF77200535FB4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FCCD66C12BCDF77100535FB4 = {
+			isa = PBXGroup;
+			children = (
+				FCCD66CC2BCDF77100535FB4 /* Lab19_TemplateMethod */,
+				FCCD66DE2BCDF77200535FB4 /* Lab19_TemplateMethodTests */,
+				FCCD66E82BCDF77200535FB4 /* Lab19_TemplateMethodUITests */,
+				FCCD66CB2BCDF77100535FB4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FCCD66CB2BCDF77100535FB4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FCCD66CA2BCDF77100535FB4 /* Lab19_TemplateMethod.app */,
+				FCCD66DB2BCDF77200535FB4 /* Lab19_TemplateMethodTests.xctest */,
+				FCCD66E52BCDF77200535FB4 /* Lab19_TemplateMethodUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FCCD66CC2BCDF77100535FB4 /* Lab19_TemplateMethod */ = {
+			isa = PBXGroup;
+			children = (
+				FCCD66CF2BCDF77100535FB4 /* ContentView.swift */,
+				FCCD66D12BCDF77200535FB4 /* Assets.xcassets */,
+				FCCD66D62BCDF77200535FB4 /* Lab19_TemplateMethod.entitlements */,
+				FCCD66D32BCDF77200535FB4 /* Preview Content */,
+			);
+			path = Lab19_TemplateMethod;
+			sourceTree = "<group>";
+		};
+		FCCD66D32BCDF77200535FB4 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FCCD66D42BCDF77200535FB4 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FCCD66DE2BCDF77200535FB4 /* Lab19_TemplateMethodTests */ = {
+			isa = PBXGroup;
+			children = (
+				FCCD66DF2BCDF77200535FB4 /* Lab19_TemplateMethodTests.swift */,
+			);
+			path = Lab19_TemplateMethodTests;
+			sourceTree = "<group>";
+		};
+		FCCD66E82BCDF77200535FB4 /* Lab19_TemplateMethodUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FCCD66E92BCDF77200535FB4 /* Lab19_TemplateMethodUITests.swift */,
+				FCCD66EB2BCDF77200535FB4 /* Lab19_TemplateMethodUITestsLaunchTests.swift */,
+			);
+			path = Lab19_TemplateMethodUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FCCD66C92BCDF77100535FB4 /* Lab19_TemplateMethod */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCCD66EF2BCDF77200535FB4 /* Build configuration list for PBXNativeTarget "Lab19_TemplateMethod" */;
+			buildPhases = (
+				FCCD66C62BCDF77100535FB4 /* Sources */,
+				FCCD66C72BCDF77100535FB4 /* Frameworks */,
+				FCCD66C82BCDF77100535FB4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Lab19_TemplateMethod;
+			productName = Lab19_TemplateMethod;
+			productReference = FCCD66CA2BCDF77100535FB4 /* Lab19_TemplateMethod.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FCCD66DA2BCDF77200535FB4 /* Lab19_TemplateMethodTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCCD66F22BCDF77200535FB4 /* Build configuration list for PBXNativeTarget "Lab19_TemplateMethodTests" */;
+			buildPhases = (
+				FCCD66D72BCDF77200535FB4 /* Sources */,
+				FCCD66D82BCDF77200535FB4 /* Frameworks */,
+				FCCD66D92BCDF77200535FB4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FCCD66DD2BCDF77200535FB4 /* PBXTargetDependency */,
+			);
+			name = Lab19_TemplateMethodTests;
+			productName = Lab19_TemplateMethodTests;
+			productReference = FCCD66DB2BCDF77200535FB4 /* Lab19_TemplateMethodTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FCCD66E42BCDF77200535FB4 /* Lab19_TemplateMethodUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCCD66F52BCDF77200535FB4 /* Build configuration list for PBXNativeTarget "Lab19_TemplateMethodUITests" */;
+			buildPhases = (
+				FCCD66E12BCDF77200535FB4 /* Sources */,
+				FCCD66E22BCDF77200535FB4 /* Frameworks */,
+				FCCD66E32BCDF77200535FB4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FCCD66E72BCDF77200535FB4 /* PBXTargetDependency */,
+			);
+			name = Lab19_TemplateMethodUITests;
+			productName = Lab19_TemplateMethodUITests;
+			productReference = FCCD66E52BCDF77200535FB4 /* Lab19_TemplateMethodUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FCCD66C22BCDF77100535FB4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					FCCD66C92BCDF77100535FB4 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					FCCD66DA2BCDF77200535FB4 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = FCCD66C92BCDF77100535FB4;
+					};
+					FCCD66E42BCDF77200535FB4 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = FCCD66C92BCDF77100535FB4;
+					};
+				};
+			};
+			buildConfigurationList = FCCD66C52BCDF77100535FB4 /* Build configuration list for PBXProject "Lab19_TemplateMethod" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FCCD66C12BCDF77100535FB4;
+			productRefGroup = FCCD66CB2BCDF77100535FB4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FCCD66C92BCDF77100535FB4 /* Lab19_TemplateMethod */,
+				FCCD66DA2BCDF77200535FB4 /* Lab19_TemplateMethodTests */,
+				FCCD66E42BCDF77200535FB4 /* Lab19_TemplateMethodUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FCCD66C82BCDF77100535FB4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCCD66D52BCDF77200535FB4 /* Preview Assets.xcassets in Resources */,
+				FCCD66D22BCDF77200535FB4 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCCD66D92BCDF77200535FB4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCCD66E32BCDF77200535FB4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FCCD66C62BCDF77100535FB4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCCD66D02BCDF77100535FB4 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCCD66D72BCDF77200535FB4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCCD66E02BCDF77200535FB4 /* Lab19_TemplateMethodTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCCD66E12BCDF77200535FB4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCCD66EA2BCDF77200535FB4 /* Lab19_TemplateMethodUITests.swift in Sources */,
+				FCCD66EC2BCDF77200535FB4 /* Lab19_TemplateMethodUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FCCD66DD2BCDF77200535FB4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FCCD66C92BCDF77100535FB4 /* Lab19_TemplateMethod */;
+			targetProxy = FCCD66DC2BCDF77200535FB4 /* PBXContainerItemProxy */;
+		};
+		FCCD66E72BCDF77200535FB4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FCCD66C92BCDF77100535FB4 /* Lab19_TemplateMethod */;
+			targetProxy = FCCD66E62BCDF77200535FB4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		FCCD66ED2BCDF77200535FB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FCCD66EE2BCDF77200535FB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		FCCD66F02BCDF77200535FB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Lab19_TemplateMethod/Lab19_TemplateMethod.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Lab19_TemplateMethod/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dwyerisgod.Lab19-TemplateMethod";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		FCCD66F12BCDF77200535FB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Lab19_TemplateMethod/Lab19_TemplateMethod.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Lab19_TemplateMethod/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dwyerisgod.Lab19-TemplateMethod";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		FCCD66F32BCDF77200535FB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dwyerisgod.Lab19-TemplateMethodTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lab19_TemplateMethod.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Lab19_TemplateMethod";
+			};
+			name = Debug;
+		};
+		FCCD66F42BCDF77200535FB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dwyerisgod.Lab19-TemplateMethodTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lab19_TemplateMethod.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Lab19_TemplateMethod";
+			};
+			name = Release;
+		};
+		FCCD66F62BCDF77200535FB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dwyerisgod.Lab19-TemplateMethodUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = Lab19_TemplateMethod;
+			};
+			name = Debug;
+		};
+		FCCD66F72BCDF77200535FB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dwyerisgod.Lab19-TemplateMethodUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = Lab19_TemplateMethod;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FCCD66C52BCDF77100535FB4 /* Build configuration list for PBXProject "Lab19_TemplateMethod" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCCD66ED2BCDF77200535FB4 /* Debug */,
+				FCCD66EE2BCDF77200535FB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCCD66EF2BCDF77200535FB4 /* Build configuration list for PBXNativeTarget "Lab19_TemplateMethod" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCCD66F02BCDF77200535FB4 /* Debug */,
+				FCCD66F12BCDF77200535FB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCCD66F22BCDF77200535FB4 /* Build configuration list for PBXNativeTarget "Lab19_TemplateMethodTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCCD66F32BCDF77200535FB4 /* Debug */,
+				FCCD66F42BCDF77200535FB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCCD66F52BCDF77200535FB4 /* Build configuration list for PBXNativeTarget "Lab19_TemplateMethodUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCCD66F62BCDF77200535FB4 /* Debug */,
+				FCCD66F72BCDF77200535FB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FCCD66C22BCDF77100535FB4 /* Project object */;
+}
