@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FCCD67052BCDF89200535FB4 /* Lab20_VisitorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCCD67042BCDF89200535FB4 /* Lab20_VisitorApp.swift */; };
 		FCCD67072BCDF89200535FB4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCCD67062BCDF89200535FB4 /* ContentView.swift */; };
 		FCCD67092BCDF89400535FB4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCCD67082BCDF89400535FB4 /* Assets.xcassets */; };
 		FCCD670C2BCDF89400535FB4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCCD670B2BCDF89400535FB4 /* Preview Assets.xcassets */; };
@@ -35,7 +34,6 @@
 
 /* Begin PBXFileReference section */
 		FCCD67012BCDF89200535FB4 /* Lab20_Visitor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lab20_Visitor.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		FCCD67042BCDF89200535FB4 /* Lab20_VisitorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lab20_VisitorApp.swift; sourceTree = "<group>"; };
 		FCCD67062BCDF89200535FB4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		FCCD67082BCDF89400535FB4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FCCD670B2BCDF89400535FB4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -95,7 +93,6 @@
 		FCCD67032BCDF89200535FB4 /* Lab20_Visitor */ = {
 			isa = PBXGroup;
 			children = (
-				FCCD67042BCDF89200535FB4 /* Lab20_VisitorApp.swift */,
 				FCCD67062BCDF89200535FB4 /* ContentView.swift */,
 				FCCD67082BCDF89400535FB4 /* Assets.xcassets */,
 				FCCD670D2BCDF89400535FB4 /* Lab20_Visitor.entitlements */,
@@ -260,7 +257,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				FCCD67072BCDF89200535FB4 /* ContentView.swift in Sources */,
-				FCCD67052BCDF89200535FB4 /* Lab20_VisitorApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
